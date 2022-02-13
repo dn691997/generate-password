@@ -38,7 +38,7 @@ function generatePassword(characteramount, lowercase, uppercase, numeric, specia
   console.log(numeric);
   var specialChar=window.confirm('Do you want to include special character?');
   console.log(specialChar);
-
+debugger;
   var charCodes = LOWERCASE_CHAR_CODES
   if(upperCase) charCodes = charCodes.concat(UPPERCASE_CHAR_CODES)
   if(numeric) charCodes = charCodes.concat(NUMBER_CHAR_CODES)
@@ -57,7 +57,7 @@ function generatePassword(characteramount, lowercase, uppercase, numeric, specia
   };
   
 
-//window.prompt "how many character 8 to 128 " link to the functio generate password
+//window.prompt "how many character 8 to 128 " link to the function generate password
 //if valid answer move to next prompt, if not then try again return to first prompt
 //next prompt is lowercase? then uppercase prompt etc..
 //if no prompt choosen, return to first prompt
